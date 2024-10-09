@@ -6,6 +6,11 @@ const routes = [
     name: "Main",
     component: () => import("@/views/Main.vue"),
   },
+  {
+    path: '/test-management',  // 새로운 URL 경로
+    name: 'TestManagement',
+    component: () => import("@/views/TestManagement.vue"),
+  }
 ];
 
 const router = createRouter({
