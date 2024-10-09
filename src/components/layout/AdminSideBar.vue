@@ -13,6 +13,7 @@
 
 <style scoped>
 .navigation-bar {
+  display: flex;
   width: 250px;
   height: 100vh;
   background-color: #1e1e1e;

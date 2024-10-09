@@ -1,6 +1,6 @@
 
 body {
-  background: #060a09;
+  background: #121212;
   transition:
           color 0.5s,
           background-color 0.5s;
@@ -49,7 +49,7 @@ body {
     margin: 0;
     padding: 0;
     font-size: 22px !important;
-    background-color: #060a09 !important;
+    background-color: #121212 !important;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -63,5 +63,5 @@ body {
     align-items: center;
     height: 100vh;
     width: 100%;
-    background-color: #060a09;
+    background-color: #121212;
 }
