@@ -104,17 +104,12 @@ export default defineComponent({
         </div>
         <div class="reader-button-container">
           <button class="no-iicp" @click="setLabel(0)">
-            No IICP ( &gt= 20)
+            No IICP ( &lt; 20)
           </button>
           <button
             class="iicp"
-            @click="
-              () => {
-                setLabel(1);
-              }
-            "
-          >
-            IICP (> 20)
+            @click="setLabel(1)">
+              IICP (&gt; 20)
           </button>
         </div>
       </div>
