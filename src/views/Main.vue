@@ -97,14 +97,14 @@ export default defineComponent({
       <div class="reader-container">
         <div class="reader-text-container">
           <p style="color: white">
-            생각하시기에, 해당 환자는 어떤 것 같습니까? ICP가 20보다 작을 경우
-            (ICP &lt;= 20 mmHg) No IICP 버튼을, 20보다 크다고 생각될 경우 (ICP
-            &gt; 20 mmHg) IICP 버튼을 눌러주세요.
+            생각하시기에, 해당 환자는 어떤 것 같습니까? <br>
+            ICP가 20보다 작을 경우 (ICP &lt;= 20 mmHg) - No IICP 버튼을,
+            20보다 크다고 생각될 경우 (ICP &gt; 20 mmHg) - IICP 버튼을 눌러주세요.
           </p>
         </div>
         <div class="reader-button-container">
           <button class="no-iicp" @click="setLabel(0)">
-            No IICP ( &gt; 20)
+            No IICP ( &gt= 20)
           </button>
           <button
             class="iicp"
@@ -114,7 +114,7 @@ export default defineComponent({
               }
             "
           >
-            IICP (>20)
+            IICP (> 20)
           </button>
         </div>
       </div>
