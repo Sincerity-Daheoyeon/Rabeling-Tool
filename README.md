@@ -1,4 +1,4 @@
-# capston-24-02
+# capstone-24-02
 
 ## Project setup
 ```
