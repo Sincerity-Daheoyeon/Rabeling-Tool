@@ -9,7 +9,7 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue';
-import NavigationBar from "../components/layout/NavigationBar.vue"; 
+import NavigationBar from "../components/layout/AdminSideBar.vue"; 
 
 export default defineComponent({
   components: {
