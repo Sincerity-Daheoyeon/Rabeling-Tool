@@ -163,7 +163,7 @@ export default defineComponent({
       <div class="rd-container">
         <div class="grid-item-title">
           <hr />
-          Thumbnails
+          Data Image
           <hr />
         </div>
 
