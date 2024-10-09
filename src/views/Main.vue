@@ -327,7 +327,6 @@ export default defineComponent({
   justify-content: center;
   align-items: center;
   color: #ffffff;
-  //background-color: #2c3e50;
   font-size: 1.35rem;
   font-weight: bold;
   margin-bottom: 20px;
