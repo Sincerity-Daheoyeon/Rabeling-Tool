@@ -235,28 +235,6 @@ export default defineComponent({
   align-items: center;
 }
 
-.tool-bar-default {
-  width: 80%;
-  height: 80%;
-  border-radius: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  content: url("../../../../../../Downloads/snuh-anesthesiology-front-main 2/src/assets/icons/menu.svg");
-}
-
-.tool-bar-content-item-01 {
-  content: url("../../../../../../Downloads/snuh-anesthesiology-front-main 2/src/assets/icons/zoom-in.svg");
-}
-
-.tool-bar-content-item-02 {
-  content: url("../../../../../../Downloads/snuh-anesthesiology-front-main 2/src/assets/icons/zoom-out.svg");
-}
-
-.tool-bar-content-item-03 {
-  content: url("../../../../../../Downloads/snuh-anesthesiology-front-main 2/src/assets/icons/measure.svg");
-}
-
 .tool-bar:hover {
   width: 200px;
   box-shadow: 0 -2px 5px rgba(255, 255, 255, 0.1);
